@@ -19,15 +19,15 @@
   <meta name="author" content="John Doe">
   <meta name="keywords" content="">
   
-    <meta name="description" content="Coisini Blog">
+    <meta name="description" content="我们从 2024年11月30日 00:00 开始在一起，   到今天已经 0 天啦 💕    (function(){   const start &#x3D; new Date(&#39;2024-11-30T00:00:00&#39;);   const today &#x3D; new Date();   const diff &#x3D; Math.floor((today - start) &#x2F; 86400000); &#x2F;&#x2F;">
 <meta property="og:type" content="website">
 <meta property="og:title" content="girlfriend">
 <meta property="og:url" content="http://little-ux-xu.github.io/girlfriend/index.html">
 <meta property="og:site_name" content="Coisini">
-<meta property="og:description" content="Coisini Blog">
+<meta property="og:description" content="我们从 2024年11月30日 00:00 开始在一起，   到今天已经 0 天啦 💕    (function(){   const start &#x3D; new Date(&#39;2024-11-30T00:00:00&#39;);   const today &#x3D; new Date();   const diff &#x3D; Math.floor((today - start) &#x2F; 86400000); &#x2F;&#x2F;">
 <meta property="og:locale" content="zh_CN">
 <meta property="article:published_time" content="2025-09-16T15:23:17.000Z">
-<meta property="article:modified_time" content="2025-09-16T15:23:17.958Z">
+<meta property="article:modified_time" content="2025-09-17T01:02:27.503Z">
 <meta property="article:author" content="John Doe">
 <meta name="twitter:card" content="summary_large_image">
   
@@ -172,7 +172,7 @@
             <li class="nav-item">
               <a class="nav-link" href="/source/girlfriend/" target="_self">
                 <i class="iconfont icon-girlfriend-fill"></i>
-                <span>girlfriend</span>
+                <span>Girlfriend</span>
               </a>
             </li>
           
@@ -234,7 +234,21 @@
                 
 
 <article class="page-content">
-  
+  <!-- 在一起计时器 -->
+<div id="together" style="text-align:center;font-size:1.4em;margin:20px 0;">
+  我们从 <strong>2024年11月30日 00:00</strong> 开始在一起，<br>
+  到今天已经 <strong id="days">0</strong> 天啦 💕
+</div>
+
+<script>
+(function(){
+  const start = new Date('2024-11-30T00:00:00');
+  const today = new Date();
+  const diff = Math.floor((today - start) / 86400000); // 1000*60*60*24
+  document.getElementById('days').textContent = diff;
+})();
+</script>
+
 
   
 
